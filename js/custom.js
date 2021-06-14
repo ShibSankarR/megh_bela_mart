@@ -140,14 +140,11 @@ $(document).ready(function() {
   // Gallery Slider
 
 $(document).ready(function() {
-  $('.gallery-slider').owlCarousel({
+  $('.product-slider').owlCarousel({
     loop:true,
+    margin:20,
+    nav:true,
     dots: false,
-    nav:false,
-    autoplay: true,
-    autoplayHoverPause:true,
-    //slideSpeed : 8000,
-    //autoplaySpeed : 4000,
     responsive:{
         0:{
             items:1
@@ -156,10 +153,10 @@ $(document).ready(function() {
             items:3
         },
         1000:{
-            items:5
+            items:4
         }
     }
-  })
+})
   });
 
 
