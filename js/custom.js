@@ -23,6 +23,12 @@ $(document).ready(function(){
       //$(".navbar-nav").css('margin','10px 0 10px 65%');
     }
   });
+
+
+
+  $("#catagories").click(function(){
+    $(".catagory-menu").toggle("");
+  });
 });
 
 
@@ -58,86 +64,9 @@ $(document).ready(function() {
   });
 
 
-// Services Slider
-
-$(document).ready(function() {
-  $('.services-slider').owlCarousel({
-    loop:true,
-    margin:20,
-    dots: false,
-    nav:true,
-    autoplay: true,
-    autoplayHoverPause:true,
-    //slideSpeed : 8000,
-    //autoplaySpeed : 4000,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:3
-        }
-    }
-  })
-  });
 
 
-// artist-slider
-
-$(document).ready(function() {
-  $('.testy-slider').owlCarousel({
-    loop:true,
-    margin:30,
-    dots: false,
-    nav:true,
-    autoplay: false,
-    autoplayHoverPause:true,
-    //slideSpeed : 8000,
-    //autoplaySpeed : 4000,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:2
-        }
-    }
-  })
-  });
-
-  // Partner Slider
-
-$(document).ready(function() {
-  $('#innabt-page-slider').owlCarousel({
-    loop:true,
-    margin:30,
-    dots: false,
-    nav:true,
-    autoplay: true,
-    autoplayHoverPause:true,
-    //slideSpeed : 8000,
-    //autoplaySpeed : 4000,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:1
-        }
-    }
-  })
-  });
-
-  // Gallery Slider
+  // Product Slider
 
 $(document).ready(function() {
   $('.product-slider').owlCarousel({
@@ -215,7 +144,14 @@ $(document).ready(function() {
 	});
 
 
-
+// Menu
+$('.stellarnav').stellarNav({
+  theme: 'light',
+  breakpoint: 960,
+  position: 'right',
+  //phoneBtn: '18009997788',
+  //locationBtn: 'https://www.google.com/maps'
+});
 
 
 
