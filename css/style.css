@@ -915,6 +915,12 @@ section.select-option-page {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  position: relative;
+}
+.back-button {
+  position: absolute;
+  top: 6%;
+  left: 9%;
 }
 .responsive-tabs {
   margin-top: 20px;
