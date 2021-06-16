@@ -634,6 +634,7 @@ button.owl-next {
   top: 0;
   z-index: 999;
   left: 0;
+  display: none;
 }
 .catagory-menu ul li {
   margin: 10px;
