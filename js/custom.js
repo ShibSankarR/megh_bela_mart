@@ -121,8 +121,8 @@ $(document).ready(function() {
     autoplay: true,
     autoplayHoverPause:true,
     animateIn:"fadeIn",
-    //slideSpeed : 8000,
-    //autoplaySpeed : 4000,
+    slideSpeed : 8000,
+    autoplaySpeed : 4000,
     navText: [
       '<i class="fas fa-angle-left" aria-hidden="true"></i>',
       '<i class="fas fa-angle-right" aria-hidden="true"></i>'

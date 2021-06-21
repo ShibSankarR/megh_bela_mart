@@ -29,78 +29,188 @@
 
 <body class="inner-body">
 
- <!-- Top-Header -->
- <!-- <div class="topContact">
+ <!-- Top Header -->
+
+ <section class="top-header">
   <div class="container">
     <div class="row">
-      <ul class="contactSec">
-        <li><a href="tel:0000000000"><span><i class="fa fa-phone" aria-hidden="true"></i></span> 000-000-0000</a></li>
-        <li><a href="#"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span> Demo, Services Address</a></li>
-      </ul>
-      
-    </div>
-  </div>
-</div> -->
-<!-- Top-Header End -->
-
-  
-<!-- Header -->
-<div class="header sticky-top">
-  <div class="container">
-    <div class="row">
-      <nav class="navbar navbar-expand-md">
-        <!-- Brand -->
-        <a class="navbar-brand logo" href="index.html">
-          <img class="logo1" src="images/logo.png" alt="logo">
-        </a>
-
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <i class="fa fa-bars"></i>
-        </button>
-
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item  active">
-              <a class="nav-link" href="about-us.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="condition.html">Terms & Condition</a>
-              <!-- <ul class="sub-menu">
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-              </ul> -->
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="policy.html">Privacy Policy</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact-us.html">Contact Us</a>
-            </li>
+      <div class="col-md-2 top-left">
+        <a href="index.html"><img src="images/logo.png" alt=""></a>
+      </div>
+      <div class="col-md-6 top-mid">
+        <form action="#">
+          <input type="text" placeholder="Search Products & Brands">
+          <input type="submit" value="Search">
+        </form>
+      </div>
+      <div class="col-md-4 top-right">
+        <div class="page-btn green">
+          <a href="#"><i class="fa fa-shopping-cart"></i> Cart(1)</a>
+        </div>
+        <div class="user-login">
+          <ul>
+            <li class="signin"><a href="login-page.html"><i class="fa fa-user"></i> Sign In / Sign Up</a></li>
           </ul>
-
         </div>
-        <div class="call-us">
-          <a href="contact-us.html">Get a Quote</a>
-        </div>
-      </nav>
+      </div>
     </div>
   </div>
+</section>
+<!-- End -->
+<!-- Top-Header End -->
+<!-- Header -->
+<div class="header">
+<div class="container">
+  <div class="row">
+    <div id="catagories" class="catagories page-btn">
+      <a href="#">All Catagories</a>
+    </div>
+    <div class="menu">
+      <ul class="menu-nav">
+          <li class="active">
+              <a href="about-us.html">About</a>
+          </li>
+          <li>
+              <a href="condition.html">Terms</a>
+              <ul>
+                <li><a href="#">Demo</a></li>
+                <li><a href="#">Demo</a></li>
+                <li><a href="#">Demo</a></li>
+            </ul>
+          </li>
+          <li>
+              <a href="policy.html">Privacy Policy</a>
+          </li>
+          <li>
+              <a href="#">FAQ</a>
+          </li>
+          <li>
+              <a href="contact-us.html">Contact</a>
+          </li>
+      </ul>
+  </div>
+  </div>
+</div>
 </div>
 <!-- Header End -->
-<!-- Banner -->
-<div class="banner inn-banner">
-  <div class="inn-ban-con">
-    <div class="container">
+<!-- Banner & Catagory_menu -->
+<section class="banner-sec">
+<div class="container">
+<div class="row">
+  <div class="col-md-3">
+    <div class="catagory-menu">
+      <ul>
+        <li><a href="#"><span><img src="images/fresh_icon.png" alt=""></span> Fresh</a></li>
+        <li><a href="#"><span><img src="images/pantry.png" alt=""></span> Pantry</a></li>
+        <li><a href="#"><span><img src="images/mobiles.png" alt=""></span> Mobiles</a></li>
+        <li><a href="#"><span><img src="images/fashion.png" alt=""></span> Fashion</a></li>
+        <li><a href="#"><span><img src="images/electronics.png" alt=""></span> Electronics</a></li>
+        <li><a href="#"><span><img src="images/applineces.png" alt=""></span> Home Appliances</a></li>
+      </ul>
+    </div>
+    <div class="left-side-pro owl-carousel owl-theme">
+
+      <div class="item">
+          <div class="product-descrp">
+            <a href="#">
+            <div class="pro-image">
+              <img src="images/pro1.png" alt="">
+            </div>
+            <div class="wishlist"></div>
+            <div class="pro-details text-center">
+              <p>Women's Sports 
+                Shoe</p>
+              <h5><del>₹ 39,990</del> <span>(20%)</span></h5>
+              <h4>₹ 39,990</h4>
+            </div>
+          </a>
+          </div>
+      </div>
+      <div class="item">
+        <div class="product-descrp">
+          <a href="#">
+          <div class="pro-image">
+            <img src="images/nike-shoe-png.png" alt="">
+          </div>
+          <div class="wishlist"></div>
+          <div class="pro-details text-center">
+            <p>Nike Sports Shoe</p>
+            <h5><del>₹9,990</del> <span>(20%)</span></h5>
+            <h4>₹ 4,990</h4>
+          </div>
+        </a>
+        </div>
+    </div>
+
+    <div class="item">
+      <div class="product-descrp">
+        <a href="#">
+        <div class="pro-image">
+          <img src="images/OnePlus-9R-Featured-1-2.png" alt="">
+        </div>
+        <div class="wishlist"></div>
+        <div class="pro-details text-center">
+          <p>OnePlus 9R</p>
+          <h5><del>₹ 49,990</del> <span>(10%)</span></h5>
+          <h4>₹ 39,990</h4>
+        </div>
+        </a>
+      </div>
+      </div>
+    
+  <div class="item">
+    <div class="product-descrp">
+      <a href="#">
+      <div class="pro-image">
+        <img src="images/products2.png" alt="">
+      </div>
+      <div class="wishlist"></div>
+      <div class="pro-details text-center">
+        <p>Sports Shoes</p>
+        <h5><del>₹ 3,990</del> <span>(20%)</span></h5>
+        <h4>₹ 9,990</h4>
+      </div>
+    </a>
+    </div>
+</div>
+
+
+<div class="item">
+  <div class="product-descrp">
+    <a href="#">
+    <div class="pro-image">
+      <img src="images/8985943736350.png" alt="">
+    </div>
+    <div class="wishlist"></div>
+    <div class="pro-details text-center">
+      <p>Apple Watch</p>
+      <h5><del>₹ 39,990</del> <span>(20%)</span></h5>
+      <h4>₹ 49,990</h4>
+    </div>
+  </a>
+  </div>
+</div>
+
+      
+
     </div>
   </div>
-  <img src="images/banner2.jpeg" alt="">
+  <div class="col-md-9">
+    <div class="banner-slider owl-carousel owl-theme">
+      <div class="item">
+        <img src="images/banner_002.png" alt="">
+      </div>
+      <div class="item">
+        <img src="images/banner_home.jpg" alt="">
+      </div>
+      <div class="item">
+        <img src="images/banner_001.png" alt="">
+      </div>
+    </div>
+  </div>
 </div>
-<!-- Banner End -->
+</div>
+</section>
   <!-- About -->
   <section class="whoSection">
     <div class="container">
