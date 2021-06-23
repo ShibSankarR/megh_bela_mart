@@ -206,7 +206,7 @@ p {
 
 .common-space {
   padding-top: 80px;
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
 }
 .cd-top.cd-fade-out {
   opacity: 1;
@@ -605,7 +605,6 @@ button.owl-next {
 }
 section.banner-sec {
   position: relative;
-  height: 460px;
 }
 .slide-left {
   left: 0;
@@ -805,6 +804,7 @@ section.banner-sec {
   font-weight: 700;
   float: left;
   color: #e53810;
+  text-transform: uppercase;
 }
 
 .page-title h5 {
@@ -1051,6 +1051,67 @@ section.select-option-page {
 
 
 
+/*===== Footer =====*/
+
+
+section.footer {
+  background: #fff;
+}
+.main-footer {
+  border-top: 2px solid #E0E0E1;
+  padding: 40px 0 80px;
+}
+.each-footer h4 {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #E76D27;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.each-footer p, .each-footer p a {
+  font-size: 16px;
+  margin-bottom: 0;
+  color: #000;
+  line-height: 22px;
+}
+.each-footer form  {
+  width: 50%;
+  height: auto;
+}
+.each-footer form input[type="text"] {
+  width: 100%;
+  clear: both;
+  height: 40px;
+  border: 1px solid #707070;
+  padding: 15px;
+  color: #707070;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin: 15px 0;
+}
+.each-footer form input[type="submit"] {
+  padding: 11px 20px;
+  color: #fff;
+  background: #000;
+  border: 1px solid #000;
+  font-size: 16px;
+  letter-spacing: .5px;
+}
+.each-footer ul li {
+  display: inline-block;
+}
+.each-footer ul li a i {
+  font-size: 36px;
+  margin-right: 30px;
+  color: #000;
+}
+p.copy-right {
+  margin-top: 100px;
+}
+.top-space {
+  margin-top: 100px;
+}
 
 
 
