@@ -567,6 +567,9 @@ button.owl-next {
 .slider-caption {
   margin-bottom: -5px;
 }
+
+
+
 /*====== Catagories =======*/
 .catagory-menu {
   width: 300px;
@@ -1115,9 +1118,276 @@ p.copy-right {
 
 
 
+/*====== About =====*/
+
+.whoSection {
+  width: 100%;
+  background: #fff;
+  padding: 80px 0;
+}
+.serImg {
+  width: 100%;
+}
+.serImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.home-content1 {
+  width: 100%;
+  padding-left: 8%;
+}
+.home-content1 .titleSec h2 {
+}
+.home-content1 h4 {
+  margin-bottom: 20px;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 500;
+}
+.home-content1 p {
+  margin-bottom: 20px;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.whoSection .home-content1 .titleSec h2 {
+  color: #f7941d;
+}
+.whoSection .home-content1 h4 {
+  color: #000113;
+}
+.whoSection .home-content1 p {
+  color: #222;
+}
+
+.titleSec {
+  width: 100%;
+  position: relative;
+  padding-bottom: 12px;
+  margin-bottom: 50px;
+}
+.titleSec:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  width: 100px;
+  background: -moz-linear-gradient(left, #f2bf2e 0%, #fb5859 100%);
+  background: -webkit-linear-gradient(left, #f2bf2e 0%, #fb5859 100%);
+  background: linear-gradient(to right, #f2bf2e 0%, #fb5859 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2bf2e', endColorstr='#fb5859', GradientType=1);
+}
+
+.titleSec h2 {
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: 500;
+  line-height: 84px;
+  background: -webkit-linear-gradient(#f2bf2e, #fb5859);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.titleSec h2 span {
+  color: #27ae6d !important;
+  font-weight: 100;
+}
+.inner-abt-serv {
+  padding: 100px 0 0;
+  margin-top: 100px !important;
+  position: relative;
+}
+section.whoSection.inner-pages {
+	padding: 80px 0 0;
+	background: #fff;
+}
+.inn-bnr-title h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  right: 0;
+}
+.inn-abt-con {
+	background: #1a1819;
+	padding: 50px;
+}
+#innabt-page-slider .owl-nav {
+	position: absolute;
+	bottom: 0px;
+	right: 0;
+}
+.inn-team-sec {
+	margin: 0 0 100px 0 !important;
+}
+.inn-team-sec .servBox h3 {
+	font-size: 20px;
+	color: #fff;
+	text-transform: capitalize;
+	font-weight: 400;
+	margin-top: 0;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.abt-img {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.abt-img img {
+  width: 100%;
+}
+
+
+/*==== Whychoose Us ====*/
+.whychooseSection {
+    width: 100%;
+    padding: 80px 0;
+    background: #f2f2f2;
+}
+.whychooseSection .home-content1 {
+  margin-bottom: 50px;
+  padding-left: 0;
+}
+
+.capabilities-sec-box {
+  padding: 20px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 3px 3px 20px rgba(0,0,0,.08);
+}
+.capabilities-sec-box img {
+  width: 120px;
+  margin: 0 auto 30px;
+  display: block;
+}
+.capabilities-sec-box h4 {
+	color: #607D8B;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: ;
+}
+.capabilities-sec-box:hover {
+  background: -moz-linear-gradient(left, #f2bf2e 0%, #fb5859 100%);
+  background: -webkit-linear-gradient(left, #f2bf2e 0%, #fb5859 100%);
+  background: linear-gradient(to right, #f2bf2e 0%, #fb5859 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2bf2e', endColorstr='#fb5859', GradientType=1);
+}
+.capabilities-sec-box:hover h4 {
+  color: #fff;
+}
+.inn-content {
+	padding-left: 0;
+}
 
 
 
+
+
+
+
+
+
+/*==== Product deatils Page =====*/
+
+.product-full-details h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+ul.rating {
+  margin-bottom: 15px;
+}
+ul.rating li {
+  display: inline-block;
+  font-size: 16px;
+}
+ul.rating li i {
+  color: #ffbc00;
+}
+.product-full-details h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.price-discount {
+  color: #ccc;
+}
+p.pro-description {
+  font-size: 15px;
+  text-align: justify;
+  margin-bottom: 25px;
+}
+.product-full-details table tbody, .product-full-details table tbody tr {
+  border: 1px solid #ccc;
+}
+.product-full-details table tbody tr th {
+  padding: 10px;
+}
+button.minus {
+  background: url(../images/minus_button.png);
+  background-position: center;
+  width: 44px;
+  height: 44px;
+  border: navajowhite;
+  float: left;
+  margin-right: 5px;
+}
+button.plus {
+  background: url(../images/plus_button.png);
+  background-position: center;
+  width: 44px;
+  height: 44px;
+  border: navajowhite;
+  float: left;
+  margin-left: 5px;
+}
+input.quantity {
+  float: left;
+  width: 110px;
+  height: 40px;
+  margin: 3px auto;
+  text-align: center;
+}
+.size-chart {
+  margin: 14px auto;
+}
+
+
+/* styles unrelated to zoom */
+		/* these styles are for the demo, but are not required for the plugin */
+		.zoom {
+			display:inline-block;
+			position: relative;
+		}
+		
+		/* magnifying glass icon */
+		.zoom:after {
+			content:'';
+			display:block; 
+			width:33px; 
+			height:33px; 
+			position:absolute; 
+			top:0;
+			right:0;
+			background:url(icon.png);
+		}
+
+		.zoom img {
+			display: block;
+		}
+
+		.zoom img::selection { background-color: transparent; }
+
+		#ex2 img:hover { cursor: url(grab.cur), default; }
+		#ex2 img:active { cursor: url(grabbed.cur), default; }
 
 
 
