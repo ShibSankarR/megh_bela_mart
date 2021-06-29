@@ -353,6 +353,7 @@ $(document).ready(function(){
    items: 4,
    dots: false,
    nav: false,
+   margin: 30,
    navText: [
      '<i class="fa fa-arrow-left" aria-hidden="true"></i>',
      '<i class="fa fa-arrow-right" aria-hidden="true"></i>'

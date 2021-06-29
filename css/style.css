@@ -939,9 +939,9 @@ section.select-option-page {
   cursor: pointer;
 }
 .tab-pane h4 {
-  text-align: center;
   font-size: 18px;
   font-weight: 600;
+  margin-bottom: 15px;
 }
 .tab-pane h4 a {
   color: #940605;
@@ -1359,6 +1359,120 @@ input.quantity {
 .size-chart {
   margin: 14px auto;
 }
+.description-box .classic-tabs {
+  padding: 40px;
+  background: -webkit-linear-gradient(left, #fff1b4 0%, #ffe3b3 100%);
+  background: linear-gradient(to right, #fff1b4 0%, #ffe3b3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#960605', endColorstr='#1c0000', GradientType=1);
+}
+ul#advancedTab li a {
+  background: -moz-linear-gradient(left, #960605 0%, #1c0000 100%);
+  background: -webkit-linear-gradient(left, #e4340d 0%, #f27a2e 100%);
+  background: linear-gradient(to right, #e4330d 0%, #f27a2e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#960605', endColorstr='#1c0000', GradientType=1);
+  color: #fff;
+  padding: 20px;
+  margin-right: 5px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+.description-box .table-bordered td, .table-bordered th {
+  border: 1px solid #222;
+}
+.description-box .table td, .description-box .table th {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
+}
+.filed-form input, .filed-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  background: #fff;
+  border: 1px solid #fff;
+}
+.filed-form label {
+  font-size: 18px;
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+.card-header button {
+  width: 100%;
+  display: block;
+  color: #222;
+  font-weight: 600;
+}
+.card-header button:focus, .card-header button:hover {
+  text-decoration: none;
+}
+.card-header h5 {
+  margin-bottom: 10px;
+}
+
+
+/*====== contact us page ======*/
+
+form.appointment-form {
+  background: -moz-linear-gradient(right, #f2bf2e 0%, #fb5859 100%);
+    background: -webkit-linear-gradient(right, #f2bf2e 0%, #fb5859 100%);
+    background: linear-gradient(to left, #f2bf2e 0%, #fb5859 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2bf2e', endColorstr='#fb5859', GradientType=1);
+  padding: 30px;
+  border-radius: 10px;
+}
+form.appointment-form h3 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+  margin: 40px 0;
+  color: #fff;
+}
+form.appointment-form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  background: rgba(0,0,0,0);
+  border: 1px solid #fff;
+  color: #fff;
+}
+form.appointment-form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  background: rgba(0,0,0,0);
+  border: 1px solid #fff;
+  color: #fff;
+  resize: none;
+}
+form.appointment-form input::placeholder, form.appointment-form textarea::placeholder {
+  color: #fff;
+}
+form.appointment-form input[type="submit"] {
+	background: #fb5859;
+	border: 1px solid #fb5859;
+	font-size: 18px;
+	font-weight: 500;
+	color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* styles unrelated to zoom */
