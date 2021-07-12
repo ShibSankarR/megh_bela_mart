@@ -256,10 +256,13 @@ p {
 
 /*==== Header ====*/
 
-
-section.top-header {
-  padding: 10px 0;
-  background: #f1752b;
+.top-header {
+  background: #000;
+  padding: 10px 5%;
+  background: -moz-linear-gradient(left, #960605 0%, #1c0000 100%);
+  background: -webkit-linear-gradient(left, #e4340d 0%, #f27a2e 100%);
+  background: linear-gradient(to right, #e4330d 0%, #f27a2e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#960605', endColorstr='#1c0000', GradientType=1);
 }
 
 ul.contactSec {
@@ -408,7 +411,7 @@ ul.contactSec li a span i {
 	text-align: right;
 }
 .mid-header {
-  padding: 10px;
+  padding: 10px 5%;
   background: #f5f5f5;
 }
 .mid-mid, .mid-left, .mid-right {
@@ -426,8 +429,13 @@ ul.contactSec li a span i {
 .reduce_size {
   width: 42%;
 }
+.common_space {
+  padding: 0 2%;
+}
 
-
+/* div {
+  border: 1px solid #e83e8c;
+} */
 
 
 
