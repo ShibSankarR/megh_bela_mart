@@ -30,6 +30,19 @@ $(document).ready(function(){
   });
 
 
+  $(".search_btn").click(function(){
+    $(".search_form").toggleClass('open_field');
+    $(".user-login").toggleClass('reduce_size');
+    $(".search_filed").css('visibility','visible');
+  });
+
+
+
+
+
+
+
+
 
   $("#catagories").click(function(){
     $(".catagory-menu").toggle("");
