@@ -539,10 +539,10 @@ ul.menu-nav li:hover::after, ul.menu-nav li ul li:hover::after {
   font-size: 22px;
 }
 .catagory-menu ul li a img {
-  width: 20%;
+  width: 15%;
   margin-right: 10px;
   vertical-align: middle;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .catagory-menu ul li a {
   font-size: 16px;
@@ -571,8 +571,6 @@ ul.menu-nav li.active:after {
 }
 .banner-slider .item {
   width: 100%;
-  height: 500px;
-  object-fit: cover;
 }
 button.owl-prev {
   height: 50px;
@@ -630,19 +628,26 @@ button.owl-next {
 
 /*====== Catagories =======*/
 .catagory-menu {
-    width: 300px;
+    width: 352px;
     height: 100vh;
     position: fixed;
     top: 0;
     z-index: 999;
     left: 0;
     display: none;
-    background: #efefef;
+    /* background: #efefef; */
+    background: url(../images/cat_menu_bg.png) no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
     right: auto;
+    z-index: 9999;
 }
 .catagory-menu ul li {
   margin: 10px;
   position: relative;
+  border: 1px solid #ffffff;
+  padding: 5px;
+  /* background: rgb(255 255 255 / 50%); */
 }
 .catagory-menu ul li:after {
   content: "";
@@ -650,16 +655,16 @@ button.owl-next {
   width: 100%;
   height: 1px;
   background: rgba(0,0,0,0);
-  border: 1px dashed #fff;
+  /* border: 1px dashed #000; */
 }
 .catagory-menu ul li:last-child:after {
   display: none;
 }
 .catagory-menu ul li a {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   vertical-align: middle;
-  color: #000;
+  color: #fff;
   display: block;
 }
 section.banner-sec {
@@ -668,6 +673,38 @@ section.banner-sec {
 .slide-left {
   left: 0;
 }
+.cross {
+  font-size: 44px;
+  color: #ffff;
+  position: absolute;
+  top: 0;
+  right: -64px;
+  padding: 10px;
+  background: -moz-linear-gradient(left, #960605 0%, #1c0000 100%);
+  background: -webkit-linear-gradient(left, #e4340d 0%, #f27a2e 100%);
+  background: linear-gradient(to right, #e4330d 0%, #f27a2e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#960605', endColorstr='#1c0000', GradientType=1);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*====== Left Side Product =======*/
 
 .left-side-pro .owl-nav {
@@ -681,20 +718,19 @@ section.banner-sec {
   align-content: center;
   border-radius: 10px;
   margin: 15px 0;
-  padding: 60px 0;
+  /* padding: 60px 0; */
 }
 .left-side-pro .wishlist {
-  background: url(../images/sprite.png) no-repeat 0 0;
-  background-position: 0 0;
+  background: url(../images/sprite.png) 0px 0px no-repeat;
   width: 30px;
   height: 30px;
   position: absolute;
-  top: 30px;
-  right: 10px;
+  top: 35px;
+  right: 15px;
 }
 .left-side-pro .pro-image img {
   margin: 0 auto 20px;
-  max-width: 180px;
+  width: 100%;
 }
 
 
@@ -733,7 +769,7 @@ section.banner-sec {
   overflow: hidden;
 }
 .product-descrp {
-  /* background: #f6f6f6; */
+  background: #f6f6f6;
   padding: 14px;
 }
 .product-display {
@@ -744,7 +780,7 @@ section.banner-sec {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#960605', endColorstr='#1c0000', GradientType=1);
 }
 .pro-image {
-  /* background: #f6f6f6; */
+  background: #f6f6f6;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -753,7 +789,9 @@ section.banner-sec {
 }
 .pro-image img {
   margin: 0 auto 20px;
-  max-width: 150px;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 .pro-details p {
@@ -847,7 +885,7 @@ section.banner-sec {
   font-size: 13px;
   padding: 15px 30px;
   font-weight: 400;
-  border-radius: 50px;
+  border-radius: 0px;
   display: block;
   text-align: center;
   background: -moz-linear-gradient(left, #960605 0%, #1c0000 100%);
@@ -855,9 +893,9 @@ section.banner-sec {
   background: linear-gradient(to right, #3d4095 0%, #1c95c3 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#960605', endColorstr='#1c0000', GradientType=1);
 }
-.orange {
+/* .orange {
   margin-left: 9px;
-}
+} */
 .orange a {
   background: -moz-linear-gradient(left, #960605 0%, #1c0000 100%);
   background: -webkit-linear-gradient(left, #e4340d 0%, #f27a2e 100%);
@@ -877,13 +915,13 @@ section.banner-sec {
   margin: 0 20px 0 0;
 }
 .wishlist {
-  background: url(../images/sprite.png) no-repeat 0 0; 
+  background: url(../images/sprite.png) no-repeat 0 0;
   background-position: 0 0;
   width: 30px;
   height: 30px;
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 20px;
+  right: 20px;
 }
 .wishlist:hover {
   background: url(../images/sprite.png) no-repeat 0 0; 

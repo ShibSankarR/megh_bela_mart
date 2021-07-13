@@ -45,9 +45,11 @@ $(document).ready(function(){
 
 
   $("#catagories").click(function(){
-    $(".catagory-menu").toggle("");
+    $(".catagory-menu").show("");
   });
-
+  $(".cross").click(function(){
+    $(".catagory-menu").hide("");
+  });
 
 
 
@@ -133,7 +135,7 @@ $(document).ready(function(){
 
   $('.banner-slider').owlCarousel({
     loop:true,
-    margin:0,
+    margin:10,
     dots: false,
     nav:true,
     autoplay: true,
@@ -168,9 +170,9 @@ $(document).ready(function(){
   $('.product-slider').owlCarousel({
     loop:true,
     margin:20,
-    nav:true,
+    nav:false,
     dots: false,
-    autoplay: true,
+    autoplay: false,
     autoplayHoverPause:true,
     responsive:{
         0:{
@@ -191,8 +193,8 @@ $(document).ready(function(){
   $('.left-side-pro').owlCarousel({
     loop:true,
     margin:20,
-    nav:true,
-    autoplay: true,
+    nav:false,
+    autoplay: false,
     autoplayHoverPause:true,
     dots: false,
     responsive:{
