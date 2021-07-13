@@ -186,6 +186,26 @@ $(document).ready(function(){
         }
     }
  })
+// Tranding Product Slider
+ $('#trending-product').owlCarousel({
+  loop:true,
+  margin:20,
+  nav:false,
+  dots: false,
+  autoplay: false,
+  autoplayHoverPause:true,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:4
+      }
+  }
+})
 
   // Product Slider
 

@@ -568,6 +568,8 @@ ul.menu-nav li.active:after {
 .banner {
   position: relative;
   width: 100%;
+  height: 450px;
+  overflow: hidden;
 }
 .banner-slider .item {
   width: 100%;
@@ -624,7 +626,11 @@ button.owl-next {
   margin-bottom: -5px;
 }
 
-
+.banner-slider .owl-item img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
 
 /*====== Catagories =======*/
 .catagory-menu {
@@ -721,7 +727,7 @@ section.banner-sec {
   /* padding: 60px 0; */
 }
 .left-side-pro .wishlist {
-  background: url(../images/sprite.png) 0px 0px no-repeat;
+  background: #f6f6f6 url(../images/sprite.png) 0px 0px no-repeat;
   width: 30px;
   height: 30px;
   position: absolute;
@@ -734,8 +740,7 @@ section.banner-sec {
 }
 .left-side-pro .item {
   width: 100%;
-  height: 520px;
-  padding: 25px 0;
+  height: auto;
 }
 
 
@@ -943,7 +948,6 @@ section.banner-sec {
 .product-descrp:hover .wishlist  {
   right: 20px;
   opacity: 1;
-  
 }
 
 button:focus{
@@ -1176,7 +1180,11 @@ section.select-option-page {
 
 
 section.footer {
-  background: #fff;
+  /* background: #e73e12; */
+  background: -moz-linear-gradient(left, #960605 0%, #1c0000 100%);
+  background: -webkit-linear-gradient(left, #e4340d 0%, #f27a2e 100%);
+  background: linear-gradient(to right, #e4330d 0%, #f27a2e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#960605', endColorstr='#1c0000', GradientType=1);
 }
 .main-footer {
   border-top: 2px solid #E0E0E1;
@@ -1185,19 +1193,19 @@ section.footer {
 .each-footer h4 {
   font-size: 18px;
   margin-top: 20px;
-  color: #E76D27;
+  color: #fff;
   line-height: 22px;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 20px;
-  font-family: 'Spartan', sans-serif;
+  margin: 20px 0;
+  font-family: Spartan, sans-serif;
 }
 .each-footer p, .each-footer p a {
   font-size: 14px;
-  margin-bottom: 0;
-  color: #000;
+  margin-bottom: 0px;
+  color: #fff;
   line-height: 22px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
 }
 .each-footer form  {
   width: 50%;
