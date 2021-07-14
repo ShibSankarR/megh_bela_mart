@@ -33,12 +33,20 @@
 
   <div class="catagory-menu">
     <ul>
-      <li><a href="#"><span><img src="images/fresh_icon.png" alt=""></span> Fresh</a></li>
-      <li><a href="#"><span><img src="images/pantry.png" alt=""></span> Pantry</a></li>
+      <li><a href="#"><span><img src="images/fashion.png" alt=""></span> Fashion</a>
+        <div class="submenu">
+          <ul>
+            <li><a href="">Womens</a></li>
+            <li><a href="">Mens</a></li>
+            <li><a href="">Kids</a></li>
+          </ul>
+        </div>
+      </li>
       <li><a href="#"><span><img src="images/mobiles.png" alt=""></span> Mobiles</a></li>
-      <li><a href="#"><span><img src="images/fashion.png" alt=""></span> Fashion</a></li>
       <li><a href="#"><span><img src="images/electronics.png" alt=""></span> Electronics</a></li>
       <li><a href="#"><span><img src="images/applineces.png" alt=""></span> Home Appliances</a></li>
+      <li><a href="#"><span><img src="images/fresh_icon.png" alt=""></span> Fresh</a></li>
+      <li><a href="#"><span><img src="images/pantry.png" alt=""></span> Pantry</a></li>
     </ul>
     <div class="cross">
       <i class="far fa-times-circle"></i>
@@ -53,6 +61,9 @@
   <div class="top-header">
     <div class="row">
       <div class="col-md-6 top-left">
+        <div id="catagories" class="catagories">
+          <a href="javascript:void(0)"><i class="fa fa-bars"></i></a>
+        </div>
         <ul>
           <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
           <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -108,11 +119,8 @@
               </li>
           </ul>
         </div>
-        <div id="catagories" class="catagories">
-          <a href="javascript:void(0)"><i class="fa fa-bars"></i></a>
-        </div>
         <div class="page-btn green">
-          <a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart(1)</a>
+          <a href="product_details.html"><i class="fa fa-shopping-cart"></i> Cart(1)</a>
         </div>
       </div>
     </div>
@@ -184,7 +192,7 @@
           <h4>TRENDING PRODUCTS</h4>
         <h5><a href="#">View All</a></h5>
         </div>
-        <div id="trending-product" class="product-slider owl-carousel owl-theme">
+        <div id="trending-product" class="owl-carousel owl-theme">
   
           <div class="item">
               <div class="product-descrp">
@@ -199,14 +207,14 @@
                   <h4>₹ 39,990</h4>
                 </div>
               </div>
-              <div class="hover-box">
-                <!-- <div class="page-btn2 blue">
+              <!-- <div class="hover-box">
+                <div class="page-btn2 blue">
                   <a href="#">Buy Now</a>
-                </div> -->
-                <div class="page-btn2 orange">
-                  <a href="cart.html">Add to Cart</a>
                 </div>
-              </div>
+                <div class="page-btn2 orange">
+                  <a href="product_details.html">Add to Cart</a>
+                </div>
+              </div> -->
           </div>
           <div class="item">
             <div class="product-descrp">
@@ -220,14 +228,14 @@
                 <h4>₹ 4,990</h4>
               </div>
             </div>
-            <div class="hover-box">
-              <!-- <div class="page-btn2 blue">
+            <!-- <div class="hover-box">
+              <div class="page-btn2 blue">
                 <a href="#">Buy Now</a>
-              </div> -->
-              <div class="page-btn2 orange">
-                <a href="cart.html">Add to Cart</a>
               </div>
+              <div class="page-btn2 orange">
+              <a href="product_details.html">Add to Cart</a>
             </div>
+            </div> -->
         </div>
     
         <div class="item">
@@ -242,14 +250,14 @@
               <h4>₹ 39,990</h4>
             </div>
           </div>
-          <div class="hover-box">
-            <!-- <div class="page-btn2 blue">
+          <!-- <div class="hover-box">
+            <div class="page-btn2 blue">
               <a href="#">Buy Now</a>
-            </div> -->
-            <div class="page-btn2 orange">
-              <a href="cart.html">Add to Cart</a>
             </div>
-          </div>
+            <div class="page-btn2 orange">
+              <a href="product_details.html">Add to Cart</a>
+            </div>
+          </div> -->
           </div>
         
       <div class="item">
@@ -264,14 +272,14 @@
             <h4>₹ 9,990</h4>
           </div>
         </div>
-        <div class="hover-box">
-          <!-- <div class="page-btn2 blue">
+        <!-- <div class="hover-box">
+          <div class="page-btn2 blue">
             <a href="#">Buy Now</a>
           </div> -->
-          <div class="page-btn2 orange">
-            <a href="cart.html">Add to Cart</a>
+          <!-- <div class="page-btn2 orange">
+            <a href="product_details.html">Add to Cart</a>
           </div>
-        </div>
+        </div> -->
     </div>
     
     
@@ -292,7 +300,7 @@
           <a href="#">Buy Now</a>
         </div> -->
         <div class="page-btn2 orange">
-          <a href="cart.html">Add to Cart</a>
+          <a href="product_details.html">Add to Cart</a>
         </div>
       </div>
     </div>
@@ -339,7 +347,7 @@
       <h4>New Arrivals</h4>
     <h5><a href="#">View All</a></h5>
     </div>
-    <div class="product-slider owl-carousel owl-theme">
+    <div id="new-arrival" class="owl-carousel owl-theme">
 
       <div class="item">
           <div class="product-descrp">
@@ -355,14 +363,14 @@
             </div>
           </a>
           </div>
-          <div class="hover-box">
-            <!-- <div class="page-btn2 blue">
+          <!-- <div class="hover-box">
+            <div class="page-btn2 blue">
               <a href="#">Buy Now</a>
-            </div> -->
-            <div class="page-btn2 orange">
-              <a href="cart.html">Add to Cart</a>
             </div>
-          </div>
+            <div class="page-btn2 orange">
+              <a href="product_details.html">Add to Cart</a>
+            </div>
+          </div> -->
       </div>
       <div class="item">
         <div class="product-descrp">
@@ -378,14 +386,14 @@
           </div>
         </a>
         </div>
-        <div class="hover-box">
-          <!-- <div class="page-btn2 blue">
+        <!-- <div class="hover-box">
+          <div class="page-btn2 blue">
             <a href="#">Buy Now</a>
-          </div> -->
-          <div class="page-btn2 orange">
-            <a href="cart.html">Add to Cart</a>
           </div>
-        </div>
+          <div class="page-btn2 orange">
+            <a href="product_details.html">Add to Cart</a>
+          </div>
+        </div> -->
     </div>
 
     <div class="item">
@@ -402,14 +410,14 @@
         </div>
       </a>
       </div>
-      <div class="hover-box">
-        <!-- <div class="page-btn2 blue">
+      <!-- <div class="hover-box">
+        <div class="page-btn2 blue">
           <a href="#">Buy Now</a>
-        </div> -->
-        <div class="page-btn2 orange">
-          <a href="cart.html">Add to Cart</a>
         </div>
-      </div>
+        <div class="page-btn2 orange">
+          <a href="product_details.html">Add to Cart</a>
+        </div>
+      </div> -->
   </div>
     
   <div class="item">
@@ -426,14 +434,14 @@
       </div>
     </a>
     </div>
-    <div class="hover-box">
-      <!-- <div class="page-btn2 blue">
+    <!-- <div class="hover-box">
+      <div class="page-btn2 blue">
         <a href="#">Buy Now</a>
-      </div> -->
-      <div class="page-btn2 orange">
-        <a href="cart.html">Add to Cart</a>
       </div>
-    </div>
+      <div class="page-btn2 orange">
+        <a href="product_details.html">Add to Cart</a>
+      </div>
+    </div> -->
 </div>
 
 
@@ -451,14 +459,14 @@
     </div>
   </a>
   </div>
-  <div class="hover-box">
-    <!-- <div class="page-btn2 blue">
+  <!-- <div class="hover-box">
+    <div class="page-btn2 blue">
       <a href="#">Buy Now</a>
-    </div> -->
-    <div class="page-btn2 orange">
-      <a href="cart.html">Add to Cart</a>
     </div>
-  </div>
+    <div class="page-btn2 orange">
+      <a href="product_details.html">Add to Cart</a>
+    </div>
+  </div> -->
 </div>
 
       
@@ -501,7 +509,7 @@
           <h4>TRENDING PRODUCTS</h4>
         <h5><a href="#">View All</a></h5>
         </div>
-        <div id="trending-product" class="product-slider owl-carousel owl-theme">
+        <div id="trending-product" class="owl-carousel owl-theme">
   
           <div class="item">
               <div class="product-descrp">
@@ -516,14 +524,14 @@
                   <h4>₹ 39,990</h4>
                 </div>
               </div>
-              <div class="hover-box">
-                <!-- <div class="page-btn2 blue">
+              <!-- <div class="hover-box">
+                <div class="page-btn2 blue">
                   <a href="#">Buy Now</a>
-                </div> -->
-                <div class="page-btn2 orange">
-                  <a href="cart.html">Add to Cart</a>
                 </div>
-              </div>
+                <div class="page-btn2 orange">
+                  <a href="product_details.html">Add to Cart</a>
+                </div>
+              </div> -->
           </div>
           <div class="item">
             <div class="product-descrp">
@@ -537,14 +545,14 @@
                 <h4>₹ 4,990</h4>
               </div>
             </div>
-            <div class="hover-box">
-              <!-- <div class="page-btn2 blue">
+            <!-- <div class="hover-box">
+              <div class="page-btn2 blue">
                 <a href="#">Buy Now</a>
-              </div> -->
-              <div class="page-btn2 orange">
-                <a href="cart.html">Add to Cart</a>
               </div>
+              <div class="page-btn2 orange">
+              <a href="product_details.html">Add to Cart</a>
             </div>
+            </div> -->
         </div>
     
         <div class="item">
@@ -559,14 +567,14 @@
               <h4>₹ 39,990</h4>
             </div>
           </div>
-          <div class="hover-box">
-            <!-- <div class="page-btn2 blue">
+          <!-- <div class="hover-box">
+            <div class="page-btn2 blue">
               <a href="#">Buy Now</a>
-            </div> -->
-            <div class="page-btn2 orange">
-              <a href="cart.html">Add to Cart</a>
             </div>
-          </div>
+            <div class="page-btn2 orange">
+              <a href="product_details.html">Add to Cart</a>
+            </div>
+          </div> -->
           </div>
         
       <div class="item">
@@ -581,14 +589,14 @@
             <h4>₹ 9,990</h4>
           </div>
         </div>
-        <div class="hover-box">
-          <!-- <div class="page-btn2 blue">
+        <!-- <div class="hover-box">
+          <div class="page-btn2 blue">
             <a href="#">Buy Now</a>
-          </div> -->
-          <div class="page-btn2 orange">
-            <a href="cart.html">Add to Cart</a>
           </div>
-        </div>
+          <div class="page-btn2 orange">
+            <a href="product_details.html">Add to Cart</a>
+          </div>
+        </div> -->
     </div>
     
     
@@ -604,14 +612,14 @@
           <h4>₹ 49,990</h4>
         </div>
       </div>
-      <div class="hover-box">
-        <!-- <div class="page-btn2 blue">
+      <!-- <div class="hover-box">
+        <div class="page-btn2 blue">
           <a href="#">Buy Now</a>
-        </div> -->
-        <div class="page-btn2 orange">
-          <a href="cart.html">Add to Cart</a>
         </div>
-      </div>
+        <div class="page-btn2 orange">
+          <a href="product_details.html">Add to Cart</a>
+        </div>
+      </div> -->
     </div>
     
           
@@ -682,7 +690,7 @@
 
   <section class="footer">
     <div class="common_space">
-        <figure class="dots text-center mt-5">
+        <figure class="dots text-center">
             <img src="image/dots.jpg" alt="">
         </figure>
         <section class="main-footer common-space">
