@@ -71,18 +71,17 @@ $(document).ready(function(){
 
   $("#tab li").click(function () {
   //reset
-  $(".submenu").removeClass("show-menu");
+  $("#tab .submenu").addClass("show-menu");
   $("#tab .activate").removeClass("activate");
 
   //act
   $(this).addClass("activate")
-  var id = $(this).closest("div").attr("id").replace("tab", "");
+  var id = $(this).closest("ul").attr("id").replace("submenu", "");
   $("#submenu" + id).addClass("show-menu");
   });
 
 
-
-
+  
 
 
 
