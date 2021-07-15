@@ -54,6 +54,43 @@ $(document).ready(function(){
 
 
 
+  //catagory menu
+
+  // $("#fashion").click(function() {
+  //   $("#fashion").children(".submenu").toggleClass("show-menu"),
+  //   $("#fashion").addClass("activate");
+  //   $("#mobiles").children(".submenu").removeClass("show-menu"),
+  //   $("#mobiles").removeClass("activate");
+  // });
+  // $("#mobiles").click(function() {
+  //   $("#mobiles").children(".submenu").toggleClass("show-menu"),
+  //   $("#mobiles").addClass("activate");
+  //   $("#fashion").children(".submenu").removeClass("show-menu"),
+  //   $("#fashion").removeClass("activate");
+  // });
+
+  $("#tab li").click(function () {
+  //reset
+  $(".submenu").removeClass("show-menu");
+  $("#tab .activate").removeClass("activate");
+
+  //act
+  $(this).addClass("activate")
+  var id = $(this).closest("div").attr("id").replace("tab", "");
+  $("#submenu" + id).addClass("show-menu");
+  });
+
+
+
+
+
+
+
+
+
+
+
+
   //my account page
   !(function($) {
     "use strict";
@@ -185,8 +222,9 @@ $(document).ready(function(){
             items:5
         }
     }
- })
-// Tranding Product Slider
+ });
+
+  // Tranding Product Slider
  $('#trending-product').owlCarousel({
   loop:true,
   margin:20,
@@ -205,10 +243,10 @@ $(document).ready(function(){
           items:4
       }
   }
-})
+  });
 
-// Tranding Product Slider
-$('#new-arrival').owlCarousel({
+  // Tranding Product Slider
+  $('#new-arrival').owlCarousel({
   loop:true,
   margin:20,
   nav:false,
@@ -226,7 +264,7 @@ $('#new-arrival').owlCarousel({
           items:5
       }
   }
-})
+  });
   // Product Slider
 
 

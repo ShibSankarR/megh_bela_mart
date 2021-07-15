@@ -558,6 +558,51 @@ ul.menu-nav li.active:after {
   opacity: 1;
   width: 100%;
 }
+.submenu ul li a {
+  padding: 5px;
+  position: relative;
+  display: block;
+  font-size: 11px;
+}
+.catagory-menu ul li:hover {
+  background: #ffb600;
+}
+.activate {
+  background: #ffb600;
+}
+.unactive {
+  background: none;
+}
+/* .catagory-menu ul li:hover .submenu {
+  display: block;
+} */
+.submenu, .sub-submenu {
+  display: none;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+/* .catagory-menu ul li ul li:hover .sub-submenu {
+  display: block;
+} */
+
+.show-menu {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -634,22 +679,58 @@ button.owl-next {
   width: 100%;
   object-fit: cover;
 }
+.page-sort-banner {
+  margin: 20px 0px;
+  width: 100%;
+  padding: 0 40px;
+  background: #f8efea;
+}
+.ban-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.ban-image {
+}
+.ban-image img {
+  width: 100%;
+}
+h4.sub-text {
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 5%;
+}
+h3.entry-title {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
 
 /*====== Catagories =======*/
 .catagory-menu {
-    width: 352px;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    z-index: 999;
-    left: 0;
-    display: none;
-    /* background: #efefef; */
-    background: url(../images/cat_menu_bg.png) no-repeat 0 0;
-    background-position: center;
-    background-size: cover;
-    right: auto;
-    z-index: 9999;
+  width: 352px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  left: 0;
+  display: none;
+  /* background: #efefef; */
+  background: url(../images/cat_menu_bg.png) no-repeat 0 0;
+  background-position: center;
+  background-size: cover;
+  right: auto;
+  z-index: 9999;
 }
 .catagory-menu ul li {
   margin: 10px;
@@ -749,13 +830,7 @@ section.banner-sec {
   align-content: center;
   text-align: center;
 }
-.submenu ul li a {
-  margin: 10px;
-  position: relative;
-  padding: 5px;
-  display: block;
-  font-size: 23px;
-}
+
 
 
 
@@ -794,6 +869,7 @@ section.banner-sec {
   width: 100%;
   overflow: hidden;
   margin-bottom: 40px;
+  margin-top: 20px;
 }
 .product-descrp {
   background: #f6f6f6;
@@ -801,7 +877,7 @@ section.banner-sec {
 }
 
 .product-display {
-  padding: 80px 0px 0;
+  /* padding: 80px 0px 0; */
   background: -moz-linear-gradient(left, #960605 0%, #1c0000 100%);
   background: -webkit-linear-gradient(left, #fff1b4 0%, #ffe3b3 100%);
   background: linear-gradient(to right, #fff1b4 0%, #ffe3b3 100%);
@@ -895,14 +971,15 @@ section.banner-sec {
 }
 .page-btn a {
   color: #fff;
-  font-size: 20px;
-  padding: 15px 40px;
-  font-weight: 400;
-  border-radius: 50px;
-  background: -moz-linear-gradient(left, #960605 0%, #1c0000 100%);
-  background: -webkit-linear-gradient(left, #e4340d 0%, #f27a2e 100%);
-  background: linear-gradient(to right, #e4330d 0%, #f27a2e 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#960605', endColorstr='#1c0000', GradientType=1);
+  font-size: 12px;
+  padding: 16px 10px;
+  font-weight: 500;
+  border-radius: 0;
+  color: #000;
+}
+.page-btn a i {
+  font-size: 18px;
+  color: #eb561e;
 }
 .page-btn2 {
   float: left;
@@ -966,6 +1043,35 @@ section.banner-sec {
 button:focus{
   outline: none;
 }
+#trending-product {
+  margin-top: 50px;
+}
+.pro-details .rating {
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*======= my account page =======*/
