@@ -660,7 +660,9 @@ h3.entry-title {
   width: 50%;
   float: left;
 }
-
+.ban-image figure {
+  margin: 0 0 -5px;
+}
 
 
 

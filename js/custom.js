@@ -56,18 +56,6 @@ $(document).ready(function(){
 
   //catagory menu
 
-  // $("#fashion").click(function() {
-  //   $("#fashion").children(".submenu").toggleClass("show-menu"),
-  //   $("#fashion").addClass("activate");
-  //   $("#mobiles").children(".submenu").removeClass("show-menu"),
-  //   $("#mobiles").removeClass("activate");
-  // });
-  // $("#mobiles").click(function() {
-  //   $("#mobiles").children(".submenu").toggleClass("show-menu"),
-  //   $("#mobiles").addClass("activate");
-  //   $("#fashion").children(".submenu").removeClass("show-menu"),
-  //   $("#fashion").removeClass("activate");
-  // });
 
   $("#tab li").click(function () {
   //reset
