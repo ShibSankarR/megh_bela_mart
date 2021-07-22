@@ -372,6 +372,7 @@ ul.contactSec li a span i {
   position: absolute;
   right: 0;
   top: 0;
+  cursor: pointer;
 }
 
 .page-btn a {
@@ -547,8 +548,11 @@ ul.menu-nav li:hover::after, ul.menu-nav li ul li:hover::after {
 
 
 .logo img {
-  max-width: 50%;
-  width: 40%;
+  max-width: 30%;
+  width: 25%;
+  margin: 60px 0;
+  background: #fff;
+  padding: 10px 10px;
 }
 
 /*==== banner ====*/
@@ -650,20 +654,25 @@ h3.entry-title {
   width: 38%;
 }
 .miniban-left-con {
-  width: 50%;
+  width: 60%;
   float: left;
   align-content: center;
   flex-wrap: wrap;
   display: flex;
+  padding: 1.6% 0;
 }
 .miniban-right-con {
-  width: 50%;
+  width: 40%;
   float: left;
 }
-.ban-image figure {
+/* .ban-image figure {
   margin: 0 0 -5px;
+} */
+.mini-ban {
+  background: #f8efea;
+  overflow: hidden;
+  padding: 5px 2%;
 }
-
 
 
 
@@ -1089,10 +1098,27 @@ button:focus{
   background-position: -45px -41px;
   right: 3px;
 }
-
-
-
-
+.center-product-slider .item .pro-details h4 {
+  font-size: 16px;
+}
+.page-jump-btn {
+  margin-top: 30px;
+}
+.page-jump-btn a {
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+  color: #fff;
+  padding: 15px 50px;
+  border-radius: 5px;
+  background: -moz-linear-gradient(left, #960605 0%, #1c0000 100%);
+  background: -webkit-linear-gradient(left, #e4340d 0%, #f27a2e 100%);
+  background: linear-gradient(to right, #e4330d 0%, #f27a2e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#960605', endColorstr='#1c0000', GradientType=1);
+}
+.inner-body .product-display {
+  padding-bottom: 60px;
+}
 
 
 
@@ -1189,7 +1215,7 @@ section.select-option-page {
   padding: 15px;
   border-radius: 50px;
   margin-bottom: 15px;
-  background: -moz-linear-gradient(left, #960605 0%, #1c0000 100%);
+  background: -moz-linear-gradient(left, #e4340d 0%, #f27a2e 100%);
   background: -webkit-linear-gradient(left, #e4340d 0%, #f27a2e 100%);
   background: linear-gradient(to right, #e4330d 0%, #f27a2e 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#960605', endColorstr='#1c0000', GradientType=1);
@@ -1204,7 +1230,7 @@ section.select-option-page {
   padding: 15px;
   border-radius: 50px;
   margin-bottom: 15px;
-  background: -moz-linear-gradient(left, #960605 0%, #1c0000 100%);
+  background: -moz-linear-gradient(left, #3d4095 0%, #1c95c3 100%);
   background: -webkit-linear-gradient(left, #3d4095 0%, #1c95c3 100%);
   background: linear-gradient(to right, #3d4095 0%, #1c95c3 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#960605', endColorstr='#1c0000', GradientType=1);
@@ -1697,7 +1723,7 @@ ul#advancedTab li a {
 
 /*====== contact us page ======*/
 
-form.appointment-form {
+.appointment-form {
   background: -moz-linear-gradient(right, #f2bf2e 0%, #fb5859 100%);
     background: -webkit-linear-gradient(right, #f2bf2e 0%, #fb5859 100%);
     background: linear-gradient(to left, #f2bf2e 0%, #fb5859 100%);
@@ -1705,14 +1731,14 @@ form.appointment-form {
   padding: 30px;
   border-radius: 10px;
 }
-form.appointment-form h3 {
+.appointment-form h3 {
   font-size: 30px;
   text-align: center;
   font-weight: 500;
   margin: 40px 0;
   color: #fff;
 }
-form.appointment-form input {
+.appointment-form input {
   width: 100%;
   padding: 15px;
   margin-bottom: 15px;
@@ -1720,7 +1746,7 @@ form.appointment-form input {
   border: 1px solid #fff;
   color: #fff;
 }
-form.appointment-form textarea {
+.appointment-form textarea {
   width: 100%;
   padding: 15px;
   margin-bottom: 15px;
@@ -1729,10 +1755,19 @@ form.appointment-form textarea {
   color: #fff;
   resize: none;
 }
-form.appointment-form input::placeholder, form.appointment-form textarea::placeholder {
+.appointment-form input::placeholder, .appointment-form textarea::placeholder {
   color: #fff;
 }
-form.appointment-form input[type="submit"] {
+
+
+
+
+
+/*====== Cart Page ======*/
+
+
+
+.appointment-form input[type="submit"] {
 	background: #fb5859;
 	border: 1px solid #fb5859;
 	font-size: 18px;
@@ -1740,6 +1775,59 @@ form.appointment-form input[type="submit"] {
 	color: rgb(255, 255, 255);
 }
 
+#shipping_method li input[type="radio"] {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: auto;
+}
+.shop_table td p {
+  margin-bottom: 10px;
+}
+.shop_table td ul {
+  margin-bottom: 15px;
+}
+.cart_totals {
+  overflow-y: auto;
+}
+.shipping-calculator-form input, .shipping-calculator-form .input-text {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #fff;
+  background: rgba(0,0,0,0);
+  color: #000;
+  padding: 9px;
+  margin-bottom: 0;
+}
+.shipping-calculator-form select {
+  width: 100%;
+  padding: 5px;
+  border: none;
+}
+.shipping-calculator-form .button {
+  width: 100%;
+  padding: 15px 30px;
+  border-radius: 50px;
+  margin-bottom: 15px;
+  border: none;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 0px;
+  background: rgb(251, 199, 38);
+}
+
+.cart-collaterals a {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: block;
+}
+.cart-item {
+  margin-bottom: 50px;
+}s
 
 
 
@@ -1758,33 +1846,91 @@ form.appointment-form input[type="submit"] {
 
 
 
-/* styles unrelated to zoom */
-		/* these styles are for the demo, but are not required for the plugin */
-		.zoom {
-			display:inline-block;
-			position: relative;
-		}
-		
-		/* magnifying glass icon */
-		.zoom:after {
-			content:'';
-			display:block; 
-			width:33px; 
-			height:33px; 
-			position:absolute; 
-			top:0;
-			right:0;
-			background:url(icon.png);
-		}
 
-		.zoom img {
-			display: block;
-		}
 
-		.zoom img::selection { background-color: transparent; }
 
-		#ex2 img:hover { cursor: url(grab.cur), default; }
-		#ex2 img:active { cursor: url(grabbed.cur), default; }
+
+
+
+    td.product-thumbnail img {
+      width: 50px;
+  }
+  .cart-collaterals {
+    padding: 20px;
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.cart-quantity {
+  margin: 50px 0;
+}
+.cart-quantity .table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid rgb(222, 226, 230);
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+.cart-quantity form.appointment-form input {
+  width: 57%;
+  padding: 15px;
+  margin-bottom: 15px;
+  background: rgba(0,0,0,0);
+  border: 1px solid #fff;
+  color: #fff;
+}
+.quantity label {
+  margin-bottom: 15px;
+}
+.cart-quantity .table td, .table th {
+  padding: .75rem;
+  vertical-align: middle;
+  border-top: 1px solid #dee2e6;
+  color: #fff;
+}
+.cart-quantity .table td a, .table th a {
+  color: #fff;
+}
+
+.cart-quantity form .button {
+  width: 30%;
+  padding: 15px;
+  border-radius: 50px;
+  margin-bottom: 15px;
+  border: none;
+  font-size: 15px;
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 0;
+  background: #fbc726;
+}
+.cart_totals h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.cart-collaterals .shop_table td, .shop_table th {
+  padding: .75rem;
+  vertical-align: middle;
+  border-top: 1px solid #dee2e6;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

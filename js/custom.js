@@ -135,7 +135,7 @@ $('.left-side-pro').owlCarousel({
   margin:20,
   nav:false,
   dots: false,
-  autoplay: false,
+  autoplay: true,
   autoplayHoverPause:true,
   responsive:{
       0:{
@@ -172,7 +172,27 @@ $('.center-product-slider').owlCarousel({
       }
   }
 });
+//  Product Slider
 
+$('.product-slider').owlCarousel({
+  loop:true,
+  margin:20,
+  nav:false,
+  dots: false,
+  autoplay: false,
+  autoplayHoverPause:true,
+  responsive:{
+      0:{
+          items:2
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:5
+      }
+  }
+});
 
 
 
@@ -414,7 +434,11 @@ $('.center-product-slider').owlCarousel({
 
 
  
+//cart change address
 
+$(".shipping-calculator-button").click(function(){
+  $(".shipping-calculator-form").show("");
+});
 
 
 
