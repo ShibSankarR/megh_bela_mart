@@ -57,16 +57,16 @@ $(document).ready(function(){
   //catagory menu
 
 
-  // $("#tab li").click(function () {
-  // //reset
-  // $("#tab .submenu").addClass("show-menu");
-  // $("#tab .activate").removeClass("activate");
+  $("#tab li").click(function () {
+  //reset
+  $("#tab .submenu").addClass("show-menu");
+  $("#tab .activate").removeClass("activate");
 
-  // //act
-  // $(this).addClass("activate")
-  // var id = $(this).closest("ul").attr("id").replace("submenu", "");
-  // $("#submenu" + id).addClass("show-menu");
-  // });
+  //act
+  $(this).addClass("activate")
+  var id = $(this).closest("ul").attr("id").replace("submenu", "");
+  $("#submenu" + id).addClass("show-menu");
+  });
 
   
 
@@ -257,21 +257,6 @@ $('.product-slider').owlCarousel({
 		);
 
 	});
-
-
-  // Menu
-  //$('.stellarnav').stellarNav({
-  //theme: 'light',
-  //breakpoint: 960,
-  //position: 'right',
-  //phoneBtn: '18009997788',
-  //locationBtn: 'https://www.google.com/maps'
-  //});
-
-
-
-
-
 
 	$('.blck-tape a').click(function(){
 

@@ -624,7 +624,7 @@ button.owl-next {
   object-fit: cover;
 }
 .page-sort-banner {
-  margin: 50px 0 -5px 0;
+  margin: 50px 0 0px 0;
   width: 100%;
   background: #f8efea;
   overflow: hidden;
@@ -633,6 +633,7 @@ button.owl-next {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
+  margin: 14% 0;
 }
 .ban-image {
 }
@@ -651,7 +652,8 @@ h3.entry-title {
 }
 .ban-image img {
   float: right;
-  width: 38%;
+  width: 100%;
+  margin: auto 0;
 }
 .miniban-left-con {
   width: 60%;
@@ -669,13 +671,19 @@ h3.entry-title {
   margin: 0 0 -5px;
 } */
 .mini-ban {
-  background: #f8efea;
+  /* background: rgb(248, 239, 234); */
   overflow: hidden;
-  padding: 5px 2%;
+  padding: 0px 2%;
 }
-
-
-
+#dif-bg {
+  background: rgb(113 86 69) !important;
+}
+#dif-bg .sub-text {
+  color: #fff;
+}
+#dif-bg .entry-title {
+  color: #fff;
+}
 
 
 
@@ -1360,10 +1368,10 @@ section.select-option-page {
 
 
 section.footer {
-  /* background: #e73e12; */
+  background: #120101;
   background: -moz-linear-gradient(left, #960605 0%, #1c0000 100%);
-  background: -webkit-linear-gradient(left, #e4340d 0%, #f27a2e 100%);
-  background: linear-gradient(to right, #e4330d 0%, #f27a2e 100%);
+  background: -webkit-linear-gradient(left, #160101 0%, #f27a2e 100%);
+  background: linear-gradient(to right, #1b0101 0%, #f27a2e 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#960605', endColorstr='#1c0000', GradientType=1);
 }
 .main-footer {
