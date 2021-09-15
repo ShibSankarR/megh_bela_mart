@@ -72,6 +72,17 @@ $(document).ready(function(){
 
 
 
+
+
+  
+
+
+
+
+
+
+
+
   // banner Slider
 
 
@@ -440,5 +451,89 @@ $(".shipping-calculator-button").click(function(){
 
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$("#select-tab > ul > li > a.cable-tv").parent( "li" ).addClass("active"); 
+
+  /* Post-document load */ 
+    $(document).ready(function(){ 
+      /* Events */ 
+        $("#select-tab > ul > li > a").click(function(event){ 
+          $(this).parent( "li" ).addClass("active"); 
+          $("#select-tab > ul > li > a").not(this).each(function(){ 
+            $(this).parent( "li" ).removeClass("active"); 
+          }); 
+          event.preventDefault(); 
+        }); 
+    }); 
+
+
+    $(document).ready(function(){ 
+      /* Events */ 
+        $("#select-tab > ul > li > a.cable-tv").click(function(event){ 
+          $("#cable-tv-pane").css('display','block'); 
+          $("#broadband-pane").css('display','none');
+          $("#select-tab > ul > li > a").not(".register-form").each(function(){ 
+            $("#cable-tv-pane").css('display','block'); 
+            $("#broadband-pane").css('display','none');
+          }); 
+          event.preventDefault(); 
+        }); 
+        $("#select-tab > ul > li > a.broadband").click(function(event){ 
+          $("#cable-tv-pane").css('display','none'); 
+          $("#broadband-pane").css('display','block');
+          $("#select-tab > ul > li > a").not(".register-form").each(function(){ 
+            $("#cable-tv-pane").css('display','none'); 
+            $("#broadband-pane").css('display','block');
+          }); 
+          event.preventDefault(); 
+        }); 
+    });
+
+
+
+
+
+
+
+
+
+    
 
 <!--end-->
